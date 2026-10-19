@@ -1,0 +1,7 @@
+{
+  "name": "스폰지밥 비키니시티 런",
+  "description": "크롬 오프라인 다이노 게임 스타일의 스폰지밥 러너 게임. 해파리가 떠다니는 비키니시티 바닷속을 신나게 달려보세요!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

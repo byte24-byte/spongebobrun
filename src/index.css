@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-arcade {
+    font-family: 'Press Start 2P', monospace;
+  }
+  .font-sans-fun {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+canvas {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Prevent accidental pull to refresh or pinch zoom on mobile */
+html, body {
+  overscroll-behavior-y: none;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
